@@ -71,11 +71,14 @@ public class Main {
             System.out.println("This is true");
         }
 
-        boolean isCar = false;
+        boolean isCar = true;
         if (isCar) {
             System.out.println("This is not supposed to happen");
         }
 
         boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
     }
 }
